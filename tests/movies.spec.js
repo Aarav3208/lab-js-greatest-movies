@@ -11,7 +11,7 @@ const {
 } = require('../src/movies');
 
 // Iteration 1
-describe('Function "getAllDirectors"', () => {
+describe('Function"getAllDirectors"', () => {
   it('should be declared', () => {
     expect(typeof getAllDirectors).toBe('function');
   });
